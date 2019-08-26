@@ -1,0 +1,132 @@
+
+
+span {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .thingy {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 3 em;
+}
+
+  
+  #my-input {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: opacity .25s, transform .25s;
+  }
+  
+  #my-input.show {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+
+  .btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #7E61ED !important;
+    border: #7E61ED !important;
+    margin-top: 1em !important;
+}
+
+.btn-primary:hover {
+    background-color: #6548D4 !important;
+}
+  
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: none;
+  }
+
+
+.center {
+    text-align: left;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75em;
+    font-weight: bold;
+    padding-left: 5.6em;
+
+}
+.center-title {
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+
+.center-nopad {
+    text-align: center;
+}
+
+.select-text{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 9em;
+    margin-top: 35px;
+}
+
+.data-table{
+    padding-left: 9em;
+    padding-right: 5em;
+    padding-bottom: 25px;
+}
+
+.close-button{
+    padding-left: 9em;
+    padding-top: 25px;
+}
+.padTabs {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 9em;
+    padding-right: 5em;
+}
+
+.padRight {
+    padding-right: 3em
+}
+
+.padRightAndLeft {
+    padding-right: 3em;
+    float: right;
+}
+
+.padRightAndTop {
+    padding-right: 3em;
+    margin-top: 20px;
+}
+
+.padleft{
+    padding-left: 2em
+}
+
+.floatright {
+    padding-left: 2em;
+    float: right;
+}
+
+.loader {
+    margin-top: 30em;
+    text-align: center
+}
+
+.loader-dash {
+   margin-top: 10em;
+   text-align: center
+}
+
+.button-link{
+    color: #42bff5; 
+    background: none; 
+    border:none;
+    outline: none;
+    font-family: 'Open-sans', sans-serif
+}
+
+.max-width{
+    max-width: 1000px;
+}

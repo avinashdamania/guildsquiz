@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'pmdfont';
+    src: URL('../../../../public/PKMN-Mystery-Dungeon.ttf') format('truetype');
+  }
+
+
+html {
+    background-color: black;
+    font-family: 'pmdfont';
+}
+
+.thingy {
+    background-color: black;
+    text-align: center;
+}
+
+.submitButton {
+    text-align: center;
+}
+
+.submitButton2 {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.tournamentTypePicker {
+    margin-left: 1em;
+}
+
+.form-label {
+    color: white;
+    font-family: 'pmdfont';
+    font-size: 2.5em;
+}
+
+.style-text {
+    color: white;
+    font-family: 'pmdfont';
+    font-size: 2em;
+}
+
+.form-control {
+    font-family: 'pmdfont';
+    font-size: 1.5em;
+    width: 25em;
+    display: inline-block;
+    vertical-align: middle;
+    /* margin-left: 0.5em; */
+}
+
+/* @media (max-width : 720px) {
+    .form-control {
+        width: 90vw;
+    }
+} */
+
+.dropdown-button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.alignme {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dropdown-item {
+    font-size: 1.5em;
+}
+
+
+.form-group {
+    margin-bottom: 5em;
+}
+
+.submitButton {
+    font-family: 'pmdfont';
+}
