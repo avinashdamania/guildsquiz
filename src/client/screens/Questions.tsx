@@ -56,23 +56,14 @@ class Questions extends Component<QuestionsPageProps, QuestionsPageState>{
             console.log(this.state)
 
             await this.calculateQuestion1()
-            console.log("finished question 1, ps: " + this.state.pelletStorm + ", cm: " + this.state.checkMage + ", hl: " + this.state.hiddenLotus)
             await this.calculateQuestion2()
-            console.log("finished question 2, ps: " + this.state.pelletStorm + ", cm: " + this.state.checkMage + ", hl: " + this.state.hiddenLotus)
             await this.calculateQuestion3()
-            console.log("finished question 3, ps: " + this.state.pelletStorm + ", cm: " + this.state.checkMage + ", hl: " + this.state.hiddenLotus)
             await this.calculateQuestion4()
-            console.log("finished question 4, ps: " + this.state.pelletStorm + ", cm: " + this.state.checkMage + ", hl: " + this.state.hiddenLotus)
             await this.calculateQuestion5()
-            console.log("finished question 5, ps: " + this.state.pelletStorm + ", cm: " + this.state.checkMage + ", hl: " + this.state.hiddenLotus)
             await this.calculateQuestion6()
-            console.log("finished question 6, ps: " + this.state.pelletStorm + ", cm: " + this.state.checkMage + ", hl: " + this.state.hiddenLotus)
             await this.calculateQuestion7()
-            console.log("finished question 7, ps: " + this.state.pelletStorm + ", cm: " + this.state.checkMage + ", hl: " + this.state.hiddenLotus)
             await this.calculateQuestion8()
-            console.log("finished question 8, ps: " + this.state.pelletStorm + ", cm: " + this.state.checkMage + ", hl: " + this.state.hiddenLotus)
             await this.calculateQuestion9()
-            console.log("finished question 9, ps: " + this.state.pelletStorm + ", cm: " + this.state.checkMage + ", hl: " + this.state.hiddenLotus)
 
             console.log(this.state)
             let ps = this.state.pelletStorm
